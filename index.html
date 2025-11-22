@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <a href="/">Tausif Shaikh</a>
+      </div>
+
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopenernoreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a href="http://linkedin.com" target="_blank" rel="noopenernoreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a href="mailto:t7466162@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>E-mail</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- SECTION 1:Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I am Tausif✋</h2>
+          <p>
+            👨‍💻 "I’m Tausif Shaikh, pursuing my BCA at Sinhagad College of
+            Science. Passionate about technology, I’m dedicated to mastering
+            full-stack web development and exploring modern tools to create
+            impactful digital solutions. With strong curiosity and commitment to
+            continuous learning, I aim to grow into a versatile developer ready
+            to contribute to innovative projects and future opportunities."
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img src="img.webp.jpg" alt="Tausif Shaikh" />
+        </div>
+      </section>
+
+      <!-- SECTION 2:Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          "I specialize in front-end technologies like HTML, CSS, and
+          JavaScript, with strong skills in Node.js and React. I’m also learning
+          backend development, aiming to build complete, scalable, and
+          user-friendly web applications using modern practices."
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="javascript-logo.webp" alt="javascript logo" />
+            <span>Javascript</span>
+          </div>
+
+          <div class="cell">
+            <img src="node-logo.webp" alt="nodejs logo" />
+            <span>Node.jsJS</span>
+          </div>
+
+          <div class="cell">
+            <img src="react-logo.webp" alt="react-logo" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3:Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+          <div class="person-details">
+            <img src="testimony .jpg.jpg" alt="" />
+            <p>Tausif Shaikh</p>
+            <p>"full stack web developer"</p>
+          </div>
+
+          <div class="text">
+            "As I progress in full‑stack web development, I treat every project
+            as a chance to grow and apply my skills. I take pride in
+            persistence, precision, and creativity, aiming to deliver solutions
+            that are reliable, user‑focused, and impactful. My commitment to
+            continuous learning drives me to become a versatile and trusted
+            developer."
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4:Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            📩 Let’s connect! I’m always open to new opportunities,
+            collaborations, or simply sharing ideas. Whether you have a project
+            in mind, a question, or just want to say hello, feel free to reach
+            out. Your message matters, and I’ll get back to you as soon as
+            possible. I believe meaningful connections spark growth, so don’t
+            hesitate to start a conversation. Together, we can explore ideas,
+            build solutions, and create something impactful. Looking forward to
+            hearing from you!
+          </div>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
